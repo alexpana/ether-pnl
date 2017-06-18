@@ -1,0 +1,94 @@
+html {
+    font-family: Lato;
+    color: #dfdddd;
+    background-color: #2e2f35;
+}
+
+.dashboard {
+    padding-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard h1 {
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.dashboard .red {
+    color: #f1614b;
+}
+
+.dashboard .green {
+    color: #39b449;
+}
+
+.dashboard .total-profit {
+    font-weight: 700;
+    font-size: 120px;
+}
+
+.dashboard .currency {
+    font-weight: 700;
+    opacity: 0.1;
+}
+
+.dashboard .profit-percent {
+    font-weight: 400;
+    opacity: 0.7;
+    font-size: 60px;
+}
+
+.dashboard .fx {
+    margin-top: 40px;
+}
+
+.dashboard .fx .position {
+    font-weight: 700;
+    opacity: 0.4;
+    font-size: 40px;
+}
+
+.dashboard .fx .separator {
+    font-weight: 400;
+    opacity: 0.1;
+    font-size: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.dashboard .fx .value {
+    font-weight: 700;
+    font-size: 40px;
+    opacity: 0.8;
+}
+
+.dashboard .history {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.dashboard .history span:nth-child(1) {
+    opacity: 1;
+}
+
+.dashboard .history span:nth-child(2) {
+    opacity: 0.8;
+}
+
+.dashboard .history span:nth-child(3) {
+    opacity: 0.6;
+}
+
+.dashboard .history span:nth-child(4) {
+    opacity: 0.4;
+}
+
+.dashboard .history span:nth-child(5) {
+    opacity: 0.2;
+}
